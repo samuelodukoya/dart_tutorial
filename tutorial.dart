@@ -77,7 +77,10 @@ void main() {
   // int ifn = 10;
   // print(ifn);
 
-  var firstName = 'samuel';
-  var secondName = 'odukoya';
-  print('My FirstName is ${firstName}, and my Surname is $secondName');
+//   var firstName = 'samuel';
+//   var secondName = 'odukoya';
+//   print('My FirstName is ${firstName}, and my Surname is $secondName');
+
+  int age = 21;
+  print(age);
 }
