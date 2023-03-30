@@ -81,6 +81,12 @@ void main() {
 //   var secondName = 'odukoya';
 //   print('My FirstName is ${firstName}, and my Surname is $secondName');
 
-  int age = 21;
-  print(age);
+  // int age = 21;
+  // print(age);
+
+  // int marks = 100;
+  // print(marks);
+
+  // double pi = 3.14;
+  // print(pi);
 }
