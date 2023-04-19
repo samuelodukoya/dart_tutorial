@@ -144,7 +144,10 @@ void main() {
   // double c = a + b;
   // print(c.toString());
 
-  String? value = 'text';
-  value = null;
-  print(value);
+  // String? value = 'text';
+  // value = null;
+  // print(value.toString());
+  List fixedlengthlist = List.filled(4, 'a', growable: false);
+  fixedlengthlist[2] = '10';
+  print(fixedlengthlist);
 }
