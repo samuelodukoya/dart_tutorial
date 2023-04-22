@@ -168,17 +168,38 @@ void main() {
   // userdata.remove('username');
   // print(' Third Instance ${userdata['username']}');
 
-  Set<int> data = {
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    0,
-  };
-  print(data);
+  // Set<int> data = {
+  //   1,
+  //   2,
+  //   3,
+  //   4,
+  //   5,
+  //   6,
+  //   7,
+  //   8,
+  //   9,
+  //   0,
+  // };
+  // print(data);
+
+  // String currentTrafficLight = 'red';
+  // if (currentTrafficLight == 'red') {
+  //   print('Stop');
+  // } else if (currentTrafficLight == 'yellow') {
+  //   print('Ready');
+  // } else if (currentTrafficLight == 'green') {
+  //   print('Go!!!');
+  // } else
+  //   (print('Traffic Light is broken! Call 911'));
+
+  // For Loop
+  // for (var x = 0; x <= 600; x++) {
+  //   print(x);
+  // }
+  int i = 0;
+  while (i > -1) {
+    print('I Am Starving and it is ${(i + 1)}PM');
+    i--;
+    print(i);
+  }
 }
