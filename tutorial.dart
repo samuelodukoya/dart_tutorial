@@ -196,10 +196,17 @@ void main() {
   // for (var x = 0; x <= 600; x++) {
   //   print(x);
   // }
-  int i = 0;
-  while (i > -1) {
-    print('I Am Starving and it is ${(i + 1)}PM');
-    i--;
-    print(i);
+  // int i = 0;
+  // while (i > -1) {
+  //   print('I Am Starving and it is ${(i + 1)}PM');
+  //   i--;
+  //   print(i);
+  // }
+
+  void addition(int a, int b) {
+    int sum = a + b;
+    print(sum);
   }
+
+  addition(2, 3);
 }
