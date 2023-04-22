@@ -73,6 +73,8 @@
 //   print(lineCounts)
 // }
 
+// import 'dart:html';
+
 void main() {
   // print('hello_World');
   // int ifn = 10;
@@ -147,7 +149,36 @@ void main() {
   // String? value = 'text';
   // value = null;
   // print(value.toString());
-  List fixedlengthlist = List.filled(4, 'a', growable: false);
-  fixedlengthlist[2] = '10';
-  print(fixedlengthlist);
+  // List<int> fixedlengthlist = List.filled(4, 5, growable: true);
+  // fixedlengthlist[2] = 6;
+
+  // Map userdata = {
+  //   'name': 'samuel',
+  //   'age': 22,
+  //   'sex': 'male',
+  //   'height': 1.71,
+  // };
+  // print(userdata['name']);
+  // print(' First Instance ${userdata['username']}');
+  // userdata.addAll({
+  //   'username': 'johnny',
+  //   'state': 'Lagos',
+  // });
+  // print(' Second Instance ${userdata['username']}');
+  // userdata.remove('username');
+  // print(' Third Instance ${userdata['username']}');
+
+  Set<int> data = {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    0,
+  };
+  print(data);
 }
