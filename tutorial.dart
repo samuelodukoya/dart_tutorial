@@ -203,10 +203,16 @@ void main() {
   //   print(i);
   // }
 
-  void addition(int a, int b) {
-    int sum = a + b;
-    print(sum);
+  // void addition(int a, int b) {
+  //   int sum = a + b;
+  //   print(sum);
+  // }
+
+  // addition(2, 3);
+
+  /* void printmyname(String fname, String lname) {
+    print('My Name is $fname, And my last name is $lname.');
   }
 
-  addition(2, 3);
+  printmyname('samuel', 'odukoya'); */
 }
