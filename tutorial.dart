@@ -400,7 +400,26 @@
 //   ball2.roll();
 // }
 
-void main() {
-  var names = ['samuel', 'odukoya', 'is', 'my', 'name'];
-  print(names);
-}
+// enum TrafficLight { red, yellow, green }
+
+// void determineActionWithTrafficLight(TrafficLight trafficLight) {
+//   switch (trafficLight) {
+//     case TrafficLight.red:
+//       print('Stop');
+//       break;
+//     case TrafficLight.yellow:
+//       print('Ready');
+//       break;
+//     case TrafficLight.green:
+//       print('Go');
+//       break;
+//   }
+// }
+
+// void main() {
+//   determineActionWithTrafficLight(TrafficLight.red);
+//   determineActionWithTrafficLight(TrafficLight.yellow);
+//   determineActionWithTrafficLight(TrafficLight.green);
+// }
+
+
